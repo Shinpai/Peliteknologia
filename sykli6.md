@@ -12,3 +12,7 @@ Ensimmäisen pisteen suoritus oli helposti tehty dokumentaation avulla, seuraava
 --> Tein buttonscriptiin eventin joka triggeroituu kun nappia painetaan ja antaa numeroidun valinnan analytics eventtinä. Sitten tein funnelin, jossa valinnat 1-4 ja gameover. Funnel näyttäisi toimivan muuten, mutta ei rekisteröi "karma"- resurssia vaikka se on tehty samalla tavoin kuin muut resurssit eli haettu GameController luokalta.
 
 ![funnel1](img/s6_02.jpg)
+
+TODO: tähän vielä kuva toisesta funnelista joka loppuu pullon potkaisuun
+
+Kaikki koodimuutokset merkitty 'haeejuut' tagilla. Loppujen lopuksi tein vaan kaksi custom-eventtiä: GAMEOVER_EVENT ja valinta_ jossa juokseva indeksi perässä. Näitä tukemaan laitoin indeksin GameControlleriin kiinni, sekä ajoitusta varten StopWatch olion myös GameControlleriin.
