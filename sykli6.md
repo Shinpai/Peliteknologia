@@ -2,12 +2,18 @@
 
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
+* [Lataa Unity-paketti tästä](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%206%20Analytiikka/Sykli6_project.zip)
+
+--
+
 Aloitin siitä, että koetin peliä muutaman kerran. Sen jälkeen löin analytiikan päälle ja rupesin kurkkimaan dokumentaatiota siitä, miten parametrit saa kulkemaan niiden kanssa. Päätin jo suht alussa, että teen mieluummin koodin sisään event-kutsun kuin rupean säätämään komponentteja gameobjectien sisään. Näin ollen piti siis ruveta katselemaan koodia ja missä vaiheessa mikäkin suoritetaan.
 
 ![pakollinen](img/s6_00.jpg)
 *Muutamien päivien ajalta keskiarvot*
 
 Ensimmäisen pisteen suoritus oli helposti tehty dokumentaation avulla, seuraavaksi rupean katsomaan saisiko funnelia varten eri valintojen eventit tehtyä "koodillisesti" vai pitääkö tukeutua komponentteihin. 
+
+--
 
 ![funnel0](img/s6_01.jpg)
 *Ensimmäisen funnelin käppyrät*
