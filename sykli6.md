@@ -25,10 +25,22 @@ Funnel näyttäisi toimivan muuten, mutta ei rekisteröi "karma"- resurssia vaik
 ![funnel1](img/s6_02.jpg)
 *Ensimmäisen funnelin config*
 
-TODO: tähän vielä kuva toisesta funnelista joka loppuu pullon potkaisuun
-
 Kaikki koodimuutokset merkitty 'haeejuut' tagilla. Loppujen lopuksi tein vaan kaksi custom-eventtiä: GAMEOVER_EVENT ja valinta_ jossa juokseva indeksi perässä. Näitä tukemaan laitoin indeksin GameControlleriin kiinni, sekä ajoitusta varten StopWatch olion myös GameControlleriin.
 
 Tein viimeisenä pieniä muutoksia GAMEOVER_EVENT:iin, koska huomasin vasta, että se ei tulittanut kaikissa tapauksissa kuten pullon potkaisussa. Lisäsin GameOver.cs:ään GameOverTrigger metodin jonka työnsin sitten OnEnablen loppuun, sekä erikoistapauksiin: pullo ja popkornit + leffa.
 
 Näillä muutoksilla pitäisi toisen funnelin olla aika suoraviivainen (olettaen, että eventit menee sille läpi).
+
+![funnel1](img/s6_03.jpg)
+*Pullofunnelin käppyrä*
+
+![funnel1](img/s6_04.jpg)
+*Pullofunnelin config*
+
+Tein vielä achievement funnelin samalla kun laitoin pullonpotkaisufunnelin "vetämään". Vaatii, että valitsee "jatka matkaa" pullonpotkaisukohdassa, sekä vähintään yhden näpistämisen.
+
+![funnel1](img/s6_05.jpg)
+*Achifunnelin config*
+
+
+
