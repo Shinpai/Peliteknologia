@@ -31,15 +31,15 @@ Tein viimeisenä pieniä muutoksia GAMEOVER_EVENT:iin, koska huomasin vasta, ett
 
 Näillä muutoksilla pitäisi toisen funnelin olla aika suoraviivainen (olettaen, että eventit menee sille läpi).
 
-![funnel2](img/s6_03.jpg)
+![funnel2](img/s6_03.JPG)
 *Pullofunnelin käppyrä*
 
-![funne3](img/s6_04.jpg)
+![funne3](img/s6_04.JPG)
 *Pullofunnelin config*
 
 Tein vielä achievement funnelin samalla kun laitoin pullonpotkaisufunnelin "vetämään". Vaatii, että valitsee "jatka matkaa" pullonpotkaisukohdassa, sekä vähintään yhden näpistämisen.
 
-![funnel4](img/s6_05.jpg)
+![funnel4](img/s6_05.JPG)
 *Achifunnelin config*
 
 
