@@ -22,6 +22,8 @@ public class GameOver : MonoBehaviour
                 "Yrität potkaista pullon piiloon, mutta liukastut ja nyrjäytät nilkkasi. Vietät loppuillan terveyskeskuksessa.\n Karmasi oli: " + GameController.Karma;
 
             GetComponentInChildren<Text>().text = gameOverText;
+            //haeejuut
+            GameOverEventTrigger();
             return;
         }
 
@@ -39,6 +41,8 @@ public class GameOver : MonoBehaviour
             gameOverText = "Et nähnyt elokuvaa. Kävelet kotiin syöden samalla popcorneja.\n Karmasi oli: " + GameController.Karma;
 
             GetComponentInChildren<Text>().text = gameOverText;
+            //haeejuut
+            GameOverEventTrigger();
             return;
         }
         else if (GameController.Leffa == 0)
@@ -72,7 +76,15 @@ public class GameOver : MonoBehaviour
 
         GetComponentInChildren<Text>().text = gameOverText;
 
-        // haeejuut: parametrina gameover eventille halutut (aika, raha, karma, hiddenKarma)
+        //haeejuut
+        GameOverEventTrigger();
+
+        // Pelin päätyttyä tallennetaan pelaajan hidden karma.
+        GameController.UpdateHiddenKarma();
+    }
+
+    // haeejuut: parametrina gameover eventille halutut (aika, raha, karma, hiddenKarma)
+    private void GameOverEventTrigger(){        
         Analytics.CustomEvent("GAMEOVER_EVENT", new Dictionary<string, object>
         {
             { "aika",(int)GameController.PelattuAika },
@@ -80,8 +92,5 @@ public class GameOver : MonoBehaviour
             { "karma", GameController.Karma },
             { "hiddenKarma", PlayerPrefs.GetInt("hiddenKarma") }
         });
-
-        // Pelin päätyttyä tallennetaan pelaajan hidden karma.
-        GameController.UpdateHiddenKarma();
     }
 }
