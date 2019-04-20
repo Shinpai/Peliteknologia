@@ -37,10 +37,9 @@ Näillä muutoksilla pitäisi toisen funnelin olla aika suoraviivainen (olettaen
 ![funne3](img/s6_04.JPG)
 *Pullofunnelin config*
 
+Niinkuin näkyy, karma ei toiminut näissä uusissa funneleissa myöskään eli todennäköisesti eventtiin annettu parametri on jotenkin vääräntyyppinen. En lähtenyt selvittämään sen enempää syitä.
+
 Tein vielä achievement funnelin samalla kun laitoin pullonpotkaisufunnelin "vetämään". Vaatii, että valitsee "jatka matkaa" pullonpotkaisukohdassa, sekä vähintään yhden näpistämisen.
 
 ![funnel4](img/s6_05.JPG)
 *Achifunnelin config*
-
-
-
