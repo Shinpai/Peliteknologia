@@ -2,9 +2,8 @@
 
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
-[Lataa pygame_pong](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%201%20Pelimoottorit/pygame_pong/pygame_pong_win32.zip)
-
-[Lataa godot_pong](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%201%20Pelimoottorit/godot_pong/godot_pong.zip)
+* [Lataa pygame_pong](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%201%20Pelimoottorit/pygame_pong/pygame_pong_win32.zip)
+* [Lataa godot_pong](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%201%20Pelimoottorit/godot_pong/godot_pong.zip)
 
 HUOM : pygame versiota pelataan nuolinäppäimillä, godot versiota W, S näppäimillä
 
