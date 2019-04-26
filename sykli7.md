@@ -6,7 +6,7 @@
 
 ---
 
-Lähdin tekemään mobiiliversiota virtuaalitodellisuustehtävästä. Paketin luettua rupesin katselemaan GoogleVR paketissa olevia prefabeja ja sieltä löytyikin pakolliseen tarvittava GVREditorEmulator. Seuraavaksi etsin tähtäintä varten prefabia ja siihen löytyi Reticle pointer prefabi. Siitä joutui muokkaamaan transformin paikkaa, sekä materiaalin propertyja jotta sai turhat reunat pois kameran tieltä.
+Lähdin tekemään mobiiliversiota virtuaalitodellisuustehtävästä (tehtävä 2). Tehtävän luettua rupesin katselemaan GoogleVR paketissa olevia prefabeja ja sieltä löytyikin pakolliseen tarvittava GVREditorEmulator. Seuraavaksi etsin tähtäintä varten prefabia ja siihen löytyi Reticle pointer prefabi. Siitä joutui muokkaamaan transformin paikkaa, sekä materiaalin propertyja jotta sai turhat reunat pois kameran tieltä ja reticlen oikeaan paikkaan.
 
 Rupesin tekemään raycastia reticlepointerin kautta sillä tavalla, että kutsuin reticlepointer scriptiä omasta scriptistä joka oli kiinni samassa objektissa. Tämän reticlepointerin raycastin toimintaan saattaminen ei kuitenkaan onnistunut hirveän yksinkertaisesti tai en löytänyt kunnon dokumentaatiota siihen. Päädyin tekemään perinteisemmän kamerassa kiinni olevan raycasterin (hitscan), koska se oli tutta ja paljon yksinkertaisemmin tehty muutamalla pätkällä koodia.
 
