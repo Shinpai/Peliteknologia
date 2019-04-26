@@ -2,7 +2,7 @@
 
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
-* [Lataa Unity-paketti tästä]()
+* [Lataa Unity-paketti tästä](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%207%20VR/Sykli7_project.zip)
 
 ---
 
