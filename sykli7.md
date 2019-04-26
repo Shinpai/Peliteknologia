@@ -14,4 +14,6 @@ Rupesin sitten raycastin päälle tekemään switch casen eri tapauksista. Muuta
 
 Tein ajastimen visualisoinnin sisäänrakennetulla imagekomponentin radial fillillä, yhdistin sen counteriin joka ajastaa raycastin osumia.
 
+Kaikki muutokset siis: lisäsin prefabin scenen roottiin ja kameran lapseksi. Tein kameralle oman skriptin raycastia varten.
+
 ---
