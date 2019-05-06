@@ -65,3 +65,4 @@ class Pickable
 
 Kuten näkee, otin olemassaolevat kolme palikkaa prefabiksi. Sitten vain luon ne constructorissa eri paikkaan laatikon sisään riippuen siitä minkälainen palikka oli kyseessä. Sen jälkeen vain generoin haluaamaani tyyppiä: new Pickable(0). Tein samaan scriptiin "PickableGenerator" listan jossa näitä sitten luon. Tämän laitoin playerobjectin komponentiksi.
 
+Merkitsin kaikki muutokset haeejuut tagilla kommenttien sisään.
