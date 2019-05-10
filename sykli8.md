@@ -40,4 +40,6 @@ foreach (var s in seinat)
     Assert.IsNotNull(s, "Seinä puuttuu");
 }
 ```
+Lopuksi napsuttelin mallipohjaan hyvin suppean raportin näistä parista yksikkötestistä.
+
 ---
