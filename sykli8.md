@@ -2,7 +2,8 @@
 
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
-* [Pyydetyt lataukset](https://github.com/Shinpai/Peliteknologia/tree/master/Sykli%208%20Pelitestaus)
+* [Lataa projekti](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%208%20Pelitestaus/PongUnity.zip)
+* [Lataa raportti](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%208%20Pelitestaus/testausraportti.pdf)
 
 ---
 Aloitin syklin tutkailemalla annettua unityn dokumentaatiota testrunnerista. Ensivaikutelma on, että se on todella yksinkertaista ja helppo sisällyttää projektiin. Seuraavaksi lähdin miettimään testitapauksia, joka on todennäköisesti näin yksinkertaiselle sovellukselle haastavampi asia kuin itse työkalun käyttäminen. Siinä mielessä tehtävä tuntuukin minulle oudolta kun kyse on enemmän testauksesta ja raportoinnista kuin uusien peleissä käytettävien työkalujen ja teknologioiden opettelusta.
