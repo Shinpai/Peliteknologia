@@ -5,3 +5,4 @@
 * [Sykli 3 - Pelitekoäly](sykli3.md)
 * [Sykli 6 - Pelianalytiikka](sykli6.md)
 * [Sykli 7 - Virtuaalitodellisuus](sykli7.md)
+* [Sykli 8 - Pelitestaus](sykli8.md)
