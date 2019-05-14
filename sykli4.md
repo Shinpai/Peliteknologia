@@ -2,7 +2,7 @@
 
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
-* [Pyydetyt lataukset](https://github.com/Shinpai/Peliteknologia/tree/master/Sykli%208%20Pelitestaus)
+* [Unity projekti zippinä](https://github.com/Shinpai/Peliteknologia/tree/master/Sykli%208%20Pelitestaus)
 
 ---
 Generointi oli minulle entuudestaan tuttu tapa tehdä karttoja ym, joten sain 3p tehtävät tehtyä aika sukkelasti. Päätin olla tekemättä 5p vaikka minulla oli valmiina muutama omatekemä koodinpätkä joitakin eri menetelmiä varten. Lähinnä laiskuuden ja aikataulun vuoksi jäin 3p suoritukseen. Päätin, että tehtävää varten tarpeeksi "mielekäs" asia vaihtaa on heksan väri, koska siihen voi mahdollisesti sitoa pelillisiä ominaisuuksia myös. Laitoin omat pari funktiota mitä tein suoraan karttasriptiin.
