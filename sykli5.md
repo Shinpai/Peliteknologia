@@ -2,10 +2,11 @@
 
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
-* [Unity projekti zippinä]()
+* [Unity projekti zippinä](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%205%20Mobiilialustat/Mobile-master.7z)
+* [APK](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%205%20Mobiilialustat/sykli5.apk)
 
 ---
-Olin juuri gamejamissa tehnyt samanlaiset jutut muutama viikko takaperin (touch input ja apk pakkaus), joten käytin lähinnä niissä käyttämääni koodia. Aloitin tehtävän muokkaamalla aluksen ShipShoot scriptiä järkevämmäksi. Tein siihen updateen TouchHandler funktion.
+Olin juuri gamejamissa tehnyt samanlaiset jutut muutama viikko takaperin (touch input ja android apk pakkaus), joten käytin lähinnä niissä käyttämääni koodia ja valmista konffausta. Aloitin tehtävän muokkaamalla aluksen ShipShoot scriptiä järkevämmäksi omia käyttötarkoituksia varten. Tein sitten updateen TouchHandler funktion, sekä liikkumiselle oman funktion.
 
 Lyhykäisyydessään tein 3p tehtäviä kahdella funktiolla sekä updatessa olevalla kikkareella joka ottaa kiinni kosketuksen tiedot. Long pressiä varten tarvitsi joko pyörivän counterin tai ajastimen, päädyin kokeilemaan c# diagnostiikka stopwatchia, joka näytti toimivan tässä ihan pätevästi.
 
