@@ -3,7 +3,7 @@
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
 * [Lataa projekti](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%208%20Pelitestaus/PongUnity.zip)
-* [Lataa raportti](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%208%20Pelitestaus/testausraportti.pdf)
+* [Lataa raportti](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%208%20Pelitestaus/testausraportti_v2.pdf)
 
 ---
 
@@ -17,7 +17,7 @@ Raportin puolesta lisäsin pyydettyihin osioihin 1.3 kuvaukseen sekä luvun 2 te
 
 En ymmärtänyt mitä osiossa 1.4 tulisi kertoa työkalusta: "Kuvaa tähän, mitä sait selville Unity Test Runner -testaustyökalun toiminnasta." kysyy mielestäni mielipidettäni ja oppimisprosessia jota olen kuvaillut tässä dokumentissa. Taas otsikko "1.4 Testaustyökalun kuvaaminen" viittaisi siihen, että selvitän lukijalle mitä työkalua testauksessa käytettiin. Korjasin tämän nyt jälkimmäisen mukaiseksi.
 
-Jätin muutamat välitekstit mallipohjasta sikseen, koska oletin niiden olevan metatekstiä ie. "tässä luvussa puhutaan tästä asiasta". Ne on nyt poistettu.
+Jätin muutamat välitekstit mallipohjasta sikseen, koska oletin niiden olevan metatekstiä ie. "tässä luvussa puhutaan tästä asiasta". Kolmanteen lukuun ne vain unohtuivat. Ne on nyt poistettu.
 
 ---
 
