@@ -3,7 +3,7 @@
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
 * [Lataa projekti](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%208%20Pelitestaus/PongUnity.zip)
-* [Lataa raportti](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%208%20Pelitestaus/testausraportti.pdf)
+* [Lataa raportti](https://github.com/Shinpai/Peliteknologia/raw/master/Sykli%208%20Pelitestaus/testausraportti_v2.pdf)
 
 ---
 
