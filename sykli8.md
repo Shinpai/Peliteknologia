@@ -8,9 +8,15 @@
 ---
 
 Korjaukset 17.05.2019:
-Testauksen ongelmat johtuivat siitä, että en ymmärtänyt editor/playmode eroja tarpeeksi hyvin. Vaihdettuani testit playmoden ja etenkin pois simplepass osiosta Ienumerator puolelle, sain testit toimimaan halutulla tavalla ja skenen ladattua. Build settingsiin joutui lisäämään aktiivisen skenen kun se oli sieltä pompannut pois.
+Testauksen ongelmat johtuivat siitä, että en ymmärtänyt editor/playmode eroja tarpeeksi hyvin. Vaihdettuani testit playmoden ja etenkin pois simplepass osiosta Ienumerator puolelle, sain testit toimimaan halutulla tavalla ja skenen objektit kiinni. Build settingsiin joutui lisäämään aktiivisen skenen kun se oli sieltä pompannut pois.
 
 Nyt testit toimivat halutusti: tarkistaa onko pisteytys oikein pelin alussa ja onko objektit luotu.
+
+Raportin puolesta lisäsin pyydettyihin osioihin 1.3 kuvaukseen sekä luvun 2 testitapauksien yksilöintiin.
+
+En ymmärtänyt mitä osiossa 1.4 tulisi kertoa työkalusta: "Kuvaa tähän, mitä sait selville Unity Test Runner -testaustyökalun toiminnasta." kysyy mielestäni mielipidettäni ja oppimisprosessia jota olen kuvaillut tässä dokumentissa. Taas otsikko "1.4 Testaustyökalun kuvaaminen" viittaisi siihen, että selvitän lukijalle mitä työkalua testauksessa käytettiin. Korjasin tämän nyt jälkimmäisen mukaiseksi.
+
+Jätin muutamat välitekstit mallipohjasta sikseen, koska oletin niiden olevan metatekstiä ie. "tässä luvussa puhutaan tästä asiasta".
 
 ---
 
