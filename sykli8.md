@@ -7,9 +7,9 @@
 
 ---
 
-Korjaukset 17.05.2019:
+**Korjaukset 17.05.2019:**
 
-Testauksen ongelmat johtuivat siitä, että en ymmärtänyt editor/playmode eroja tarpeeksi hyvin. Vaihdettuani testit playmoden ja etenkin pois simplepass osiosta Ienumerator puolelle, sain testit toimimaan halutulla tavalla ja skenen objektit kiinni. Build settingsiin joutui lisäämään aktiivisen skenen kun se oli sieltä pompannut pois.
+Testauksen ongelmat johtuivat siitä, että en ymmärtänyt editor/playmode eroja tarpeeksi hyvin. Myös ensiksi aloin testaamaan alkuarvoja ennen kuin peli on käynnistetty, josta siirryin pois. Vaihdettuani testit playmoden ja etenkin pois simplepass osiosta Ienumerator puolelle, sain testit toimimaan halutulla tavalla ja skenen objektit kiinni. Build settingsiin joutui lisäämään aktiivisen skenen kun se oli sieltä pompannut pois.
 
 Nyt testit toimivat halutusti: tarkistaa onko pisteytys oikein pelin alussa ja onko objektit luotu.
 
