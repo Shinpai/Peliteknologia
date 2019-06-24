@@ -1,4 +1,4 @@
-## Raportti - Pelitestaus
+## Raportti - Mobiilipeli
 
 [Takaisin sisällykseen](https://github.com/Shinpai/Peliteknologia)
 
