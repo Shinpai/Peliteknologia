@@ -16,7 +16,9 @@ vec4 circle(vec2 uv, vec2 pos, float rad, vec3 color) {
 	float t = clamp(d, 0.0, 1.0);
 	return vec4(color, 1.0 - t);
 }
-
+/**
+* Piirtää kaksi ympyrää, joista molemmat skaalautuvat hiiren position perusteella.
+*/
 void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
 	vec2 uv = fragCoord.xy;
 	vec2 center = iResolution.xy * 0.5;
@@ -46,7 +48,13 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
 ```
 
 Käytetyt tutoriaalit: 
+
 http://fabricecastel.github.io/blog/2016-02-11/main.html
+
 https://www.shadertoy.com/view/Md23DV
+
 https://www.shadertoy.com/view/4lj3WD
-Käytin tätä työn pohjana: https://www.shadertoy.com/view/XsjGDt	
+
+Käytin tätä myös työn pohjana: 
+
+https://www.shadertoy.com/view/XsjGDt	
