@@ -8,3 +8,4 @@
 * [Sykli 6 - Pelianalytiikka](sykli6.md)
 * [Sykli 7 - Virtuaalitodellisuus](sykli7.md)
 * [Sykli 8 - Pelitestaus](sykli8.md)
+* [Sykli 9 - Shader-ohjelmointi](sykli9.md)
