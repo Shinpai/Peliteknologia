@@ -20,28 +20,28 @@ vec4 circle(vec2 uv, vec2 pos, float rad, vec3 color) {
 void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
 	vec2 uv = fragCoord.xy;
 	vec2 center = iResolution.xy * 0.5;
-    // kaksi eri halkaisijaa hiiren x- ja y- positiosta
-    float rad1 = iMouse.y;
-    float rad2 = iMouse.x;
+	// kaksi eri halkaisijaa hiiren x- ja y- positiosta
+    	float rad1 = iMouse.y;
+    	float rad2 = iMouse.x;
     
-    // värit
-    vec3 tausta = vec3(0.0, 0.0, 0.0);
-    vec3 blue = vec3(0.0, 0.0, 255.0);
-    vec3 red = vec3(225.0, 0, 0);
+    	// värit
+    	vec3 tausta = vec3(0.0, 0.0, 0.0);
+    	vec3 blue = vec3(0.0, 0.0, 255.0);
+    	vec3 red = vec3(225.0, 0, 0);
 
-    // Tausta
+    	// Tausta
 	vec4 layer1 = vec4(tausta, 1.0);
 	
 	// Ympyrä 1
 	vec4 layer2 = circle(uv, center, rad1 , red);
     
-    // Ympyrä 2
-    vec2 pos = vec2(100.0, 100.0);
-    vec4 layer3 = circle(uv, pos, rad2 , blue);
+    	// Ympyrä 2
+    	vec2 pos = vec2(100.0, 100.0);
+    	vec4 layer3 = circle(uv, pos, rad2 , blue);
 	
 	// Yhdistetään kaikki palautettuun arvoon
 	vec4 c = mix(layer1, layer3, layer3.a);
-    fragColor = mix(c, layer2, layer2.a);
+    	fragColor = mix(c, layer2, layer2.a);
 }
 ```
 
